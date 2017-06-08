@@ -30,6 +30,7 @@ before_install:
 - go get github.com/axw/gocov/gocov
 - go get github.com/modocache/gover
 - go get github.com/mattn/goveralls
+# biu
 - if ! go get github.com/golang/tools/cmd/cover; then go get golang.org/x/tools/cmd/cover; fi
 - git rev-parse --short HEAD > psiphon/git_rev
 - openssl aes-256-cbc -K $encrypted_bf83b4ab4874_key -iv $encrypted_bf83b4ab4874_iv
