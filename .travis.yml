@@ -16,6 +16,7 @@ script:
 - go test -race -v ./server
 - go test -race -v ./server/psinet
 - go test -race -v
+- go test -race -v
 - go test -v -covermode=count -coverprofile=common.coverprofile ./common
 - go test -v -covermode=count -coverprofile=osl.coverprofile ./common/osl
 - go test -v -covermode=count -coverprofile=protocol.coverprofile ./common/protocol
