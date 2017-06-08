@@ -39,6 +39,6 @@ before_install:
 notifications:
   slack:
     rooms:
-      secure: jVo/BZ1iFtg4g5V+eNxETwXPnbhwVwGzN1vkHJnCLAhV/md3/uHGsZQIMfitqgrX/T+9JBVRbRezjBwfJHYLs40IJTCWt167Lz8R1NlazLyEpcGcdesG05cTl9oEcBb7X52kZt7r8ZIBwdB7W6U/E0/i41qKamiEJqISMsdOoFA=
+      secure: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4GIgqXdPOkehPwITfExrH+NrTq3uJlNS0ZWeEd/QCVLayVGTScAzYrJZcC3hw09rHe9fQv0VRtvfGN1O4Zh4Q1cTI1DBswD5F68SFxWN/DbPafCmu+wuCEr767iCqw8JwxynChyRYMOcdf22VQz8QUbfbCKwHayMOtCC8XiPLBQIDAQAB
     on_success: always
     on_failure: always
